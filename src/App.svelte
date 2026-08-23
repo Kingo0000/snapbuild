@@ -10,6 +10,7 @@
   import Testimonials from './lib/components/Testimonials.svelte';
   import Pricing from './lib/components/Pricing.svelte';
   import ContactForm from './lib/components/ContactForm.svelte';
+  import FinalCta from './lib/components/FinalCta.svelte';
   import Footer from './lib/components/Footer.svelte';
 </script>
 
@@ -36,5 +37,7 @@
   
   <!-- New Section 5 -->
   <ContactForm />
+  
+  <FinalCta />
 </main>
 <Footer />
