@@ -6,26 +6,33 @@
     <div class="footer-top">
       <div class="footer-brand">
         <div class="logo">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4 6H20V10H4V6Z" fill="white"/>
-            <path d="M8 12H16V16H8V12Z" fill="white"/>
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 2L2 9V19L14 26L26 19V9L14 2Z" fill="url(#footer-grad)" />
+            <path d="M2 9L14 16L26 9" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M14 26V16" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="footer-grad" x1="2" y1="2" x2="26" y2="26" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#ff6b6b"/>
+                <stop offset="1" stop-color="#d84b9e"/>
+              </linearGradient>
+            </defs>
           </svg>
-          снэпбилд
+          SnapBuild
         </div>
         <p>The single platform for all your marketing assets.</p>
       </div>
       <div class="footer-links">
         <div class="link-col">
           <h4>Product</h4>
-          <a href="#">Features</a>
-          <a href="#">Integrations</a>
-          <a href="#">Pricing</a>
+          <a href="#product">Features</a>
+          <a href="#integrations">Integrations</a>
+          <a href="#pricing">Pricing</a>
         </div>
         <div class="link-col">
           <h4>Company</h4>
           <a href="#">About Us</a>
           <a href="#">Careers</a>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </div>
         <div class="link-col">
           <h4>Legal</h4>

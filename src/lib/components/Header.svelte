@@ -5,19 +5,27 @@
   <div class="container">
     <div class="header-content">
       <div class="logo">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M4 6H20V10H4V6Z" fill="currentColor"/>
-          <path d="M8 12H16V16H8V12Z" fill="currentColor"/>
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 2L2 9V19L14 26L26 19V9L14 2Z" fill="url(#logo-grad)" />
+          <path d="M2 9L14 16L26 9" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M14 26V16" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          <defs>
+            <linearGradient id="logo-grad" x1="2" y1="2" x2="26" y2="26" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#ff6b6b"/>
+              <stop offset="1" stop-color="#d84b9e"/>
+            </linearGradient>
+          </defs>
         </svg>
-        <span>снэпбилд</span>
+        <span class="logo-text">SnapBuild</span>
       </div>
       <nav class="nav-links">
         <a href="#product">Product</a>
-        <a href="#possibilities">Possibilities</a>
-        <a href="#safety">Safety</a>
-        <a href="#faq">FAQ</a>
+        <a href="#use-cases">Use Cases</a>
+        <a href="#integrations">Integrations</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#pricing">Pricing</a>
       </nav>
-      <button class="cta-btn">Start now</button>
+      <a href="#contact" class="cta-btn">Start now</a>
     </div>
   </div>
 </header>
@@ -63,6 +71,13 @@
     background-color: var(--primary);
     padding: 12px 24px;
     font-size: 0.95rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+  }
+  .cta-btn:hover {
+    opacity: 0.9;
   }
   @media (max-width: 768px) {
     .nav-links {

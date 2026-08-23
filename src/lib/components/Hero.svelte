@@ -15,11 +15,18 @@
       <div class="hero-mockup">
         <div class="mockup-header">
           <div class="mockup-logo">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 6H20V10H4V6Z" fill="white"/>
-              <path d="M8 12H16V16H8V12Z" fill="white"/>
+            <svg width="20" height="20" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 2L2 9V19L14 26L26 19V9L14 2Z" fill="url(#hero-grad)" />
+              <path d="M2 9L14 16L26 9" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M14 26V16" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+              <defs>
+                <linearGradient id="hero-grad" x1="2" y1="2" x2="26" y2="26" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#ff6b6b"/>
+                  <stop offset="1" stop-color="#d84b9e"/>
+                </linearGradient>
+              </defs>
             </svg>
-            снэпбилд
+            SnapBuild
           </div>
         </div>
         <div class="mockup-body">
