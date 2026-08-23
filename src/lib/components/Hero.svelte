@@ -2,8 +2,8 @@
   import { fadeUp } from '../animate.js';
 </script>
 
-<div class="hero-bg"></div>
 <section class="hero">
+  <div class="hero-bg"></div>
   <div class="container hero-content">
     <h1 use:fadeUp>A platform where everything<br/>is created within your brand<br/>and design system</h1>
     <p use:fadeUp={{delay: 100}}>Connect your design system to SnapBuild so every team member can create professional, branded materials in minutes, not days.</p>
@@ -44,20 +44,25 @@
 <style>
   .hero-bg {
     position: absolute;
-    top: 0;
+    top: -150px;
     left: 0;
     right: 0;
     height: 1200px;
-    background: linear-gradient(110deg, #ffffff 40%, #ffefe5 65%, #ffccd5 100%);
-    z-index: -1;
+    background: radial-gradient(circle at 85% 40%, #ffd0db 0%, #ffe8d9 45%, #ffffff 80%);
+    z-index: 0;
     pointer-events: none;
   }
   
   .hero {
     position: relative;
-    padding: 80px 0 0;
+    padding: 100px 0 0;
     text-align: center;
     overflow: visible;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
   }
 
   .hero-content h1 {
