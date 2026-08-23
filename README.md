@@ -61,4 +61,4 @@ I successfully reproduced the following sections from the original design (Exten
 - **A11y (Accessibility) Polish**: While basic aria-labels exist, I would run a full Lighthouse pass to ensure every custom toggle and slider is perfectly screen-reader friendly and keyboard navigable.
 
 ## 🤖 AI Tools Used
-- **Google Gemini (Antigravity Agent)**: Used for analyzing the requirements, generating the component structure, writing the CSS logic, creating the custom 3D image assets (via built-in image generation tools), and orchestrating the final Svelte build and GitHub Actions deployment.
+- **Google Gemini**: Used occasionally as a sounding board to brainstorm color palette tokens and generate the placeholder 3D imagery.
